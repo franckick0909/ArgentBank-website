@@ -1,0 +1,40 @@
+@import "../../styles/App.scss";
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #12002b;
+    text-align: center;
+
+    .titre-error{
+        font-size: clamp(3rem, 10vw, 20rem);
+        color: #fff;
+        margin-bottom: 2rem;
+        text-shadow: 0 0 5px #00bc77;
+    }
+
+    .text-error{
+        font-size: 1.5rem;
+        color: #2c3e50;
+        margin-bottom: 2rem;
+    }
+
+    .button-error{
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        border: none;
+        background-color: #42b983;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover{
+            background-color: #00bc77;
+        }
+    }
+}
