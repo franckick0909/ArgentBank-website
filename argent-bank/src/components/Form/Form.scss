@@ -1,2 +1,14 @@
 @import "../../styles/App.scss";
 
+.alert-danger {
+    background: lightcoral;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+
+
+    p {
+        margin: 0;
+        color: red;
+        font-size: 0.8rem;
+    }
+}

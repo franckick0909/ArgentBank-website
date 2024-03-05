@@ -1,16 +1,16 @@
 import React from "react";
-import "./Connexion.scss";
+import "./Login.scss";
 import Header from "../../components/Header/Header";
 import { FaUserCircle } from "react-icons/fa";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 
-const Connexion = () => {
+const Login = () => {
   return (
     <div>
       <Header />
-      <main class="main bg-dark">
-        <section class="sign-in-content">
+      <main className="main bg-dark">
+        <section className="sign-in-content">
           <FaUserCircle className="sign-in-icon" />
           <h1>Sign In</h1>
           <Form />
@@ -21,4 +21,4 @@ const Connexion = () => {
   );
 };
 
-export default Connexion;
+export default Login;

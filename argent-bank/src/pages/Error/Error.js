@@ -1,5 +1,6 @@
 import React from "react";
 import "./Error.scss";
+import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
@@ -9,9 +10,9 @@ const Error = () => {
         Sorry, the page you are looking for could not be found.
       </p>
 
-      <a href="/home" className="button-error">
+      <Link to="/" className="button-error">
         Go to home page
-      </a>
+      </Link>
     </section>
   );
 };

@@ -2,24 +2,25 @@ import React from "react";
 import "./Header.scss";
 import { FaUserCircle } from "react-icons/fa";
 import logo from "../../assets/img/argentBankLogo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header">
-      <nav class="main-nav">
-        <a class="main-nav-logo" href="./home">
+      <nav className="main-nav">
+        <Link to="/" className="main-nav-logo">
           <img
-            class="main-nav-logo-image"
+            className="main-nav-logo-image"
             src={logo}
             alt="Argent Bank Logo"
           />
-          <h1 class="sr-only">Argent Bank</h1>
-        </a>
+          <h1 className="sr-only">Argent Bank</h1>
+        </Link>
         <div>
-          <a class="main-nav-item" href="./connexion">
+          <Link to="/login" className="main-nav-item">
             <FaUserCircle />
             Sign In
-          </a>
+          </Link>
         </div>
       </nav>
     </header>

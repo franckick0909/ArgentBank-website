@@ -1,0 +1,12 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "email": "kick@.com",
+            "password": "kick",
+            "firstName": "franck",
+            "lastName": "kick",
+            "userName": "kk"
+        }
+    ]
+}
